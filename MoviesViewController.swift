@@ -83,6 +83,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         cell.TitleLabel.text = title
         cell.overviewLabel.text = overview
         
+        print("hi")
         
         
         print("row \(indexPath.row)")
